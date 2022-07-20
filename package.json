@@ -3,5 +3,8 @@
   "version": "0.1.0",
   "main": "index.js",
   "author": "nsrciog <nsrciog@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^15.4.0"
+  }
 }
