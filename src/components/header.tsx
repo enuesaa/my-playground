@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-export default function Header () {
+export default function Header() {
   return (
     <header>
       <nav>
