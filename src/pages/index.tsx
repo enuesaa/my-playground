@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section>
       <h1>Hello!</h1>
-      <Link to="/about">About</Link>
+      <Link to={'/common/about'}>About</Link>
     </section>
   )
 }
