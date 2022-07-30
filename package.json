@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
     "eslint": "^8.20.0",
     "prettier": "^2.7.1",
     "rxjs": "~7.5.0",
