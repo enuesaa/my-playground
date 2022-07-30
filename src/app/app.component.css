@@ -1,3 +1,11 @@
+header {
+  text-align: center;
+}
+
+header a {
+  margin: 10px;
+}
+
 .resource-list {
   font-family: Helvetica, Arial, sans-serif;
   font-size: larger;
