@@ -1,9 +1,8 @@
 {
-  "name": "playwright-test",
+  "name": "playwright-hello",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "nsrciog <nsrciog@gmail.com>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "devDependencies": {
     "@playwright/test": "^1.24.0"
   },
