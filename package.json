@@ -1,5 +1,8 @@
 {
   "name": "fusuma-hello",
   "version": "1.0.0",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "fusuma": "^2.8.4"
+  }
 }
