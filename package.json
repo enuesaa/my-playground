@@ -7,11 +7,9 @@
     "start:prod": "fusuma start-prod",
     "build": "fusuma build",
     "deploy": "npm run build && fusuma deploy",
-    "pdf": "npm run build && fusuma pdf",
-    "lint": "eslint \"slides/*.md\" --fix"
+    "pdf": "npm run build && fusuma pdf"
   },
   "devDependencies": {
-    "eslint": "^8.22.0",
     "fusuma": "^2.8.4"
   }
 }
