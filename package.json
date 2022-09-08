@@ -1,0 +1,9 @@
+{
+  "name": "inquirejs-hello",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "inquirer": "^9.1.1"
+  }
+}
