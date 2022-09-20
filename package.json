@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "license": "UNLICENSED",
   "private": true,
-  "type": "commonjs",
+  "type": "module",
   "bin": {
-    "inquirer-hello": "./bin/cli.js"
+    "inquirer-hello": "dist/cli.js"
   },
   "scripts": {
-    "start": "tsx ./src/index.ts",
-    "lint": "tsc --noEmit"
+    "start": "tsx src/cli.ts",
+    "lint": "tsc --noEmit",
+    "build": "esbuild --platform=node --outdir=dist src/cli.ts"
   },
   "dependencies": {
     "inquirer": "^9.1.1"
