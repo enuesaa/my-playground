@@ -5,7 +5,7 @@
   "private": true,
   "type": "module",
   "bin": {
-    "inquirer-hello": "dist/cli.js"
+    "inquirejs-hello": "./bin/inquirejs-hello.js"
   },
   "scripts": {
     "start": "tsx src/cli.ts",
