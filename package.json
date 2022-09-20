@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "license": "UNLICENSED",
   "private": true,
-  "type": "module",
+  "type": "commonjs",
   "bin": {
     "inquirer-hello": "./bin/cli.js"
   },
   "scripts": {
-    "start": "node ./bin/cli.js"
+    "start": "node --require esbuild-register ./src/list.ts"
   },
   "dependencies": {
     "inquirer": "^9.1.1"
