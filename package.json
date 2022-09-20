@@ -8,7 +8,6 @@
     "inquirejs-hello": "./bin/inquirejs-hello.js"
   },
   "scripts": {
-    "install": "tsup src/cli.ts --format esm",
     "start": "tsx src/cli.ts",
     "lint": "tsc --noEmit",
     "build": "tsup src/cli.ts --format esm"
