@@ -8,7 +8,8 @@
     "inquirer-hello": "./bin/cli.js"
   },
   "scripts": {
-    "start": "tsx ./src/list.ts"
+    "start": "tsx ./src/index.ts",
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "inquirer": "^9.1.1"
@@ -16,7 +17,6 @@
   "devDependencies": {
     "@types/inquirer": "^9.0.1",
     "esbuild": "^0.15.8",
-    "esbuild-register": "^3.3.3",
     "ts-node": "^10.9.1",
     "tsx": "^3.9.0",
     "typescript": "^4.8.2"
