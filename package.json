@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "license": "UNLICENSED",
   "private": true,
-  "main": "src/index.js",
   "type": "module",
+  "bin": {
+    "inquirer-hello": "./bin/cli.js"
+  },
   "scripts": {
-    "start": "node --loader ts-node/esm --no-warnings src/index.ts"
+    "start": "node ./bin/cli.js"
   },
   "dependencies": {
     "inquirer": "^9.1.1"
