@@ -4,24 +4,37 @@ import inquirer from 'inquirer';
 
 /**
  * using official example `editor`
- * @see https://github.com/SBoudrias/Inquirer.js/blob/master/packages/inquirer/examples/editor.js 
+ * @see https://github.com/SBoudrias/Inquirer.js/blob/master/packages/inquirer/examples/list.js
  */
+inquirer
 inquirer
   .prompt([
     {
-      type: 'editor',
-      name: 'bio',
-      message: 'Please write a short bio of at least 3 lines.',
-      validate(text) {
-        if (text.split('\n').length < 3) {
-          return 'Must be at least 3 lines.';
-        }
-  
-        return true;
+      type: 'list',
+      name: 'theme',
+      message: 'What do you want to do?',
+      choices: [
+        'Order a pizza',
+        'Make a reservation',
+        new inquirer.Separator(),
+        'Ask for opening hours',
+        {
+          name: 'Contact support',
+          disabled: 'Unavailable at this time',
+        },
+        'Talk to the receptionist',
+      ],
+    },
+    {
+      type: 'list',
+      name: 'size',
+      message: 'What size do you need?',
+      choices: ['Jumbo', 'Large', 'Standard', 'Medium', 'Small', 'Micro'],
+      filter(val) {
+        return val.toLowerCase();
       },
-      waitUserInput: true,
     },
   ])
   .then((answers) => {
     console.log(JSON.stringify(answers, null, '  '));
-  });
+  })
