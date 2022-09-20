@@ -8,12 +8,13 @@
     "inquirer-hello": "./bin/cli.js"
   },
   "scripts": {
-    "start": "node --require esbuild-register ./src/list.ts"
+    "start": "node --require esbuild-register --loader @esbuild-kit/esm-loader ./src/list.ts"
   },
   "dependencies": {
     "inquirer": "^9.1.1"
   },
   "devDependencies": {
+    "@esbuild-kit/esm-loader": "^2.4.2",
     "@types/inquirer": "^9.0.1",
     "esbuild": "^0.15.8",
     "esbuild-register": "^3.3.3",
