@@ -2,7 +2,6 @@
   "name": "@enuesaa/inquirejs-hello",
   "version": "0.1.0",
   "license": "UNLICENSED",
-  "private": true,
   "type": "module",
   "bin": {
     "inquirejs-hello": "./bin/inquirejs-hello.js"
