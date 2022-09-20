@@ -8,9 +8,10 @@
     "inquirejs-hello": "./bin/inquirejs-hello.js"
   },
   "scripts": {
+    "install": "tsup src/cli.ts --format esm",
     "start": "tsx src/cli.ts",
     "lint": "tsc --noEmit",
-    "build": "esbuild --platform=node --outdir=dist src/cli.ts"
+    "build": "tsup src/cli.ts --format esm"
   },
   "dependencies": {
     "inquirer": "^9.1.1"
@@ -19,6 +20,7 @@
     "@types/inquirer": "^9.0.1",
     "esbuild": "^0.15.8",
     "ts-node": "^10.9.1",
+    "tsup": "^6.2.3",
     "tsx": "^3.9.0",
     "typescript": "^4.8.2"
   }
