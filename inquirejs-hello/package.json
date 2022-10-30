@@ -1,0 +1,30 @@
+{
+  "name": "@enuesaa/inquirejs-hello",
+  "version": "0.1.2",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "inquirejs-hello": "./bin/inquirejs-hello.js"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "lint": "tsc --noEmit",
+    "build": "tsup src/cli.ts --format esm",
+    "postinstall": "tsup src/cli.ts --format esm"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.1",
+    "tsup": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.1",
+    "esbuild": "^0.15.8",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.9.0",
+    "typescript": "^4.8.2"
+  }
+}
