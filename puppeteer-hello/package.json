@@ -1,0 +1,9 @@
+{
+  "name": "puppeteer-hello",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "puppeteer": "^15.4.0"
+  }
+}
