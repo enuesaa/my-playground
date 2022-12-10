@@ -3,7 +3,7 @@ import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@re
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
-  title: 'blog.enuesaa.dev',
+  title: '',
   viewport: 'width=device-width,initial-scale=1',
 })
 
