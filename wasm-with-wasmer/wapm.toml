@@ -1,0 +1,12 @@
+[package]
+name = "wasm-with-wasmer"
+version = "1.0.0"
+description = "Package description for wasm-with-wasmer"
+license = "ISC"
+
+[dependencies]
+"_/cowsay" = "0.2.0"
+
+[[module]]
+name = "entry"
+source = "entry.wasm"
