@@ -1,3 +1,3 @@
 # playground-2022
 My playground in 2022.  
-Repository for trying something new package or library.  
+Repository for getting started with something new package or library.  
